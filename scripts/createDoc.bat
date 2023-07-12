@@ -1,0 +1,3 @@
+SET classes=..\..\java-advanced-2023\modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/
+SET test=..\..\java-advanced-2023\artifacts\info.kgeorgiy.java.advanced.implementor.jar
+javadoc -d doc -link https://docs.oracle.com/en/java/javase/17/docs/api/ -private -author -cp %test% ..\..\java-advanced\java-solutions\info\kgeorgiy\ja\faizieva\implementor\Implementor.java %classes%Impler.java %classes%JarImpler.java %classes%ImplerException.java
